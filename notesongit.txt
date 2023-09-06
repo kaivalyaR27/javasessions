@@ -1,0 +1,31 @@
+git init
+ls
+git status
+git add .
+git status
+git commit -m ""
+git log-gives you akey type that tella about your log files
+git show -the key nin lock shows you the commit messages
+git push origin main
+or 
+git pull origin min
+if its refusing then git pull
+git pull --allow-unrelated-histories
+ls
+ls -ltrh
+git status
+git push
+to remove file git rm -rf javasessions/
+git commit -m ""
+ls
+touch sample.txt
+less sample.txt
+wc -l sample.txt
+git commit -m ""
+git push
+echo "Hello world">> sample.txt
+git status
+git diff sample.txt
+AFTER EVERY CHANGE COMMIT THE MESSAGE 
+then 
+git push
