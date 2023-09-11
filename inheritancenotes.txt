@@ -1,0 +1,75 @@
+SINGLE INHERITANCE
+
+class animal{
+void eat()
+{
+Sopln;}
+}
+class dog extends animal{
+void bark(){
+sopln;'}
+}
+class main{
+psvm(s a[]){
+dog d=new dog();
+d.bark;
+d.eat();
+
+MULTILEVEL INHERITANCE
+
+class x{
+void methd(){
+sopln;
+}
+}
+class y extends x{
+void m2(){
+sopln;
+}
+}
+class z extends x{
+void m3(){
+sopln;
+}
+}
+class main{
+psvm(s a[]){
+z Z=new Z();
+Z.m2;
+Z.m2()
+Z.m3();
+Z.m1();
+}
+}
+
+
+
+
+HIERARCHIAL INHERITANCE
+
+class a{
+method(){}}
+class b extends a {
+void m1 (){
+}
+}
+class c extends a{
+void m2(){
+}
+}
+class main{
+psvm(Sa[]){
+c C=new C();
+C.m2();
+c.method();
+}
+}
+
+
+
+
+
+
+
+
+
