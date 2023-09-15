@@ -1,0 +1,43 @@
+pipeline{
+agent any{
+stages{
+stage('Compile'){
+steps{
+echo "Compiled successfully";
+}
+}
+stage('Junit'){
+steps{
+echo "Junit executed successfully";
+}
+}
+stage('Qualitycheck'){
+steps{
+echo "Quality check was passed";
+}
+}
+stage('Deploy'){
+steps{
+echo "Pass";
+}
+}
+}
+post{
+always{
+echo 'This sis similar to final block and always will get executed'
+}
+success{
+echo 'This will run after success'
+}
+failure{
+echo 'This is after failure'
+}
+unstable{
+echo 'This is if ony some cases pass and some are not'
+}
+changed{
+echo 'This will run only if state has changed'
+echo 'Like if prev pipeline was failing and now its working'
+}
+}
+}}
