@@ -1,21 +1,17 @@
 class LinkedListQueue
 {
  private Node front, rear;
- private int queueSize; 
-    
- //linked list node  
+ private int queueSize;   
  private class Node {  
  int data;  
  Node next;  
  }  
- //default constructor - initially front & rear are null; size=0; queue is empty  
  public LinkedListQueue()  
  {  
  front = null;  
  rear = null;  
  queueSize = 0;  
  }  
-//check if the queue is empty  
  public boolean isEmpty()  
  {  
  return (queueSize == 0);  
@@ -32,8 +28,7 @@ class LinkedListQueue
  queueSize--;  
  System.out.println("Element " + data+ " removed from the queue");  
  return data;  
- }  
- //Add data at the rear of the queue.  
+ }   
  public void enqueue(int data)  
  {  
  Node oldRear = rear;  
